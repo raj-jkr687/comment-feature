@@ -1,0 +1,16 @@
+Requirements:
+
+'rails'--> '3.0.10'
+'mysql'
+"will_paginate"
+
+Running the code:
+
+Go to the project folder through command prompt: 
+rake db:create
+rake db:migrate
+rails s
+
+Pagination:
+
+pagination will occur for posts after 4 post and 3 for comments. 

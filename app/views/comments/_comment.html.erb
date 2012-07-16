@@ -1,0 +1,6 @@
+<ul class="comments">
+  <li><span><%= comment.name %></span>: <%= comment.body %> <%= link_to 'Destroy', post_comment_path(@post, comment),
+            :confirm => 'Are you sure?', :method => :delete %></li>
+</ul>
+
+
